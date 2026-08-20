@@ -1,0 +1,26 @@
+{
+  "system": "2D Ising model, checkerboard Metropolis dynamics",
+  "lattice_size_L": 96,
+  "temperature_T": 2.25,
+  "source_spin_location_R_SOURCE": 6,
+  "thermalization_sweeps_T_THERMAL": 4700,
+  "thermalization_margin_multiplier": 2.0,
+  "production_margin_multiplier": 8.0,
+  "trajectory_population_seeds": {
+    "range": [180000, 180023],
+    "count": 24,
+    "note": "Literal sequential seed range, confirmed as the population underlying the reported results via independent re-derivation matching every reported value exactly."
+  },
+  "golden_pair_seeds": {
+    "high_target_value": 180013,
+    "low_target_value": 180009
+  },
+  "target_variable": {
+    "name": "O(B)",
+    "formula": "log(TE_A(B) / TE_B(B))",
+    "block_size_B": 500,
+    "transfer_entropy_dt": 1000,
+    "discretization_bins": 5,
+    "reference": "Schreiber T. Measuring Information Transfer. Phys Rev Lett. 2000;85(2):461-464."
+  }
+}
