@@ -1,4 +1,16 @@
-# Representation Transitions Reveal Predictive Structure in Complex Systems — Reproduction Repository
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22032639.svg)](https://doi.org/10.5281/zenodo.22032639)
+
+# Code and data repository for: "Representation Transitions Reveal Predictive Structure in Complex Systems: A Trajectory-Level Reconstruction in a Critical System"
+
+**Author**: Jiaqi Pan (Independent Researcher)
+**This repository corresponds to**: Version 1.0.1
+**Associated publication**: submitted to *PLOS Complex Systems*,
+Manuscript Number PCSY-D-26-00116 (status: under editorial review as of
+2026-08-21). Full citation to be updated here once a decision is
+reached. A public, independently-timestamped preprint version of the
+same manuscript is also being prepared (arXiv, `cond-mat.stat-mech`).
+
+---
 
 Code and data underlying the paper's reported results. Every figure and
 statistic in the manuscript traces to one of the scripts and cache
@@ -36,7 +48,7 @@ resolve correctly from there.
 ```
 Paper_A_Repository/
 ├── README.md                    (this file)
-├── LICENSE                      (MIT, draft default -- see note in file)
+├── LICENSE                      (MIT)
 ├── environment/
 │   └── requirements.txt         (numpy, scipy, scikit-learn, matplotlib)
 ├── parameters/
@@ -89,7 +101,19 @@ the provided cached files.
 
 ## Citation
 
-If you use this code or data, please cite the paper (full citation to
-be added once published) and, if applicable, this repository's own
-archived DOI (to be minted upon deposit — see project root for current
-status).
+If you use this code or data, please cite:
+
+- **The paper**: Pan J. Representation Transitions Reveal Predictive
+  Structure in Complex Systems: A Trajectory-Level Reconstruction in a
+  Critical System. Submitted to PLOS Complex Systems, 2026 (Manuscript
+  Number PCSY-D-26-00116; full citation to be updated once a decision
+  is reached).
+- **This repository** (code and data), via its archived DOI:
+
+  > Pan J. (2026). 863632670/paper-a-reproducibility: Paper A
+  > Reproducibility Package. Zenodo. https://doi.org/10.5281/zenodo.22032639
+
+  This is the concept DOI and always resolves to the latest archived
+  version. To cite the exact version used to produce the results
+  reported in the paper specifically, use Version 1.0.0:
+  https://doi.org/10.5281/zenodo.22032640.
